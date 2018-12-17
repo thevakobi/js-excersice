@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+ <meta charset="utf-8">
+  <title>
+  </title>
+  </head>
+  <body>
+    <p id="square" >
+    </p>
+     <script>
+      function square(x){    return x*x;  }  document.getElementById("square").innerHTML= square(20 );
+       </script>
+         <p id="addition">
+         </p>
+         <p id="multiplication">
+         </p>
+          <script>
+           function addNum(num1, num2){    return num1+num2;  }  document.getElementById("add").innerHTML="The addition of the two numbers is "+ additionNum(1,20 );  function multiplicationNum(num1, num2){    return num1 * num2;  }  document.getElementById("multiplication").innerHTML= "The multiplication of the two numbers is"+ multiplicationNum(40, 10);
+      </script>
+      <p id="subtract">
+      </p>
+      <script>
+         function subtractNum(num1, num2){      return num1 - num2;    }    document.getElementById("subtract").innerHTML= "The subtraction of the two numbers is "+subtractNum(50, 5);
+          </script>
+          <p id="divide">
+         </p>
+          <script>
+          function divideNum(num1, num2){    return num1/num2;  }  document.getElementById("divide").innerHTML= "The division of the two numbers is "+divideNum(5, 5);
+         </script>
+
+         
+         <button onclick="alertFunction()">click to alert</button>
+         <script>
+           function alertFunction(){      window.alert("Hello World!");    }    alertHello()
+           </script>
+          <p id="name">
+         </p>
+            <script>
+             var person= {firstName:"Nimal" , lastName:"Raj", age:15, city:"Kandy"};    document.getElementById("name").innerHTML= "My name is " + person.firstName    + " " + person.lastName +". "    + "I'm " +person.age + " years old. "+ "I live in " +person.city +".";
+             </script>
+               <p id="cour">
+             </p>
+             <p id="c">
+             </p>
+              <p id="o">
+             </p>
+              <p id="u">
+             </p>
+             <script>
+                  var course = {courseName:"BIT", courseFee:"Rs 150 000", startDate:"12.06.2018", center:"Our Office"};      document.getElementById("cour").innerHTML="Course Name: " + course.courseName;      document.getElementById("c").innerHTML="Course Fee: " + course.courseFee;      document.getElementById("o").innerHTML="Start Date: " + course.startDate;      document.getElementById("u").innerHTML="Center: " + course.center;
+               </script>
+             </body>
+             </html>
